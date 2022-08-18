@@ -3,6 +3,12 @@ import { Feature, List } from "./Components/learn-components-props";
 import Car from "./Components/learn-class-components";
 import MyCar from "./Components/learn-state";
 import { Header, Container } from "./Components/learn-lifecycle-components";
+import {
+  Football,
+  Form,
+  Toggle,
+  LoggingButton,
+} from "./Components/learn-handling-events";
 
 function App() {
   return (
@@ -13,6 +19,10 @@ function App() {
       <MyCar></MyCar>
       <Header favcol="yellow"></Header>
       <Container></Container>
+      <Football></Football>
+      <Form></Form>
+      <Toggle></Toggle>
+      <LoggingButton></LoggingButton>
     </>
   );
 }

@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -65,13 +65,13 @@ class Container extends React.Component {
   };
 
   render() {
-    let myheader;
+    let myHeader;
     if (this.state.show) {
-      myheader = <Child></Child>;
+      myHeader = <Child></Child>;
     }
     return (
       <div>
-        {myheader}
+        {myHeader}
         <button type="button" onClick={this.delHeader}>
           Delete Header
         </button>
