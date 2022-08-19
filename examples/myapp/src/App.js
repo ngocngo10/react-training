@@ -9,7 +9,9 @@ import {
   Toggle,
   LoggingButton,
 } from "./Components/learn-handling-events";
-import Test from "./Components/learn-conditional-rendering";
+import TestConditionalRending from "./Components/learn-conditional-rendering";
+import TestList from "./Components/learn-list";
+import TestForms from "./Components/learn-forms";
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
       <Form></Form>
       <Toggle></Toggle>
       <LoggingButton></LoggingButton>
-      <Test></Test>
+      <TestConditionalRending></TestConditionalRending>
+      <TestList></TestList>
+      <TestForms></TestForms>
     </>
   );
 }
