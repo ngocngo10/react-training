@@ -36,18 +36,16 @@ class Toggle extends React.Component {
     this.state = { isToggleOn: true };
 
     // This binding is necessary to make `this` work in the callback
-    this.handleClick1 = this.handleClick;
+    this.handleClick1 = this.handleClick.bind(this);
   }
 
   handleClick() {
-    console.log("handleClick", this);
     this.setState((prevState) => ({
       isToggleOn: !prevState.isToggleOn,
     }));
   }
 
   render() {
-    console.log("render", this);
     return (
       <button onClick={this.handleClick1}>
         {this.state.isToggleOn ? "ON" : "OFF"}
@@ -57,13 +55,9 @@ class Toggle extends React.Component {
 }
 
 class LoggingButton extends React.Component {
-  //   handleClick = () => {
-  //     console.log("this is", this);
-  //   };
-
-  handleClick() {
+  handleClick = () => {
     console.log("this is", this);
-  }
+  };
 
   // This syntax ensures `this` is bound within handleClick
   render() {
