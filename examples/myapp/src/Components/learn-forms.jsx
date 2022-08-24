@@ -54,7 +54,7 @@ class EmployeeComponent extends React.Component {
     this.setState({
       employee: {
         ...this.state.employee,
-        [event.target.name]: event.target.value
+        [event.target.name]: event.target.value,
       },
     });
   }

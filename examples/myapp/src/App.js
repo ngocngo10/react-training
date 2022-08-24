@@ -13,6 +13,7 @@ import TestConditionalRending from "./Components/learn-conditional-rendering";
 import TestList from "./Components/learn-list";
 import TestForms from "./Components/learn-forms";
 import Calculator  from "./Components/learn-lifting-state-up";
+import SignUpDialog from "./Components/learn-composition-vs-inheritance";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <TestList></TestList>
       <TestForms></TestForms>
       <Calculator></Calculator>
+      <Si
     </>
   );
 }
