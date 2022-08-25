@@ -50,14 +50,17 @@ class EmployeeComponent extends React.Component {
   }
 
   changeHandler(event) {
+    console.log(event.target.name);
     this.setState({
-      [event.target.name]: event.target.value,
+      employee: {
+        ...this.state.employee,
+        [event.target.name]: event.target.value,
+      },
     });
   }
 
-  onCreateEmployee(e) {
-    e.preventDefault();
-    alert(this.state.employee);
+  onCreateEmployee() {
+    alert(this.state.Id);
   }
 
   render() {
