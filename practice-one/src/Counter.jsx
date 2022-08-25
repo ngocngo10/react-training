@@ -1,7 +1,7 @@
 import React from "react";
-import "./DecrementIncrement.css"
+import "./Counter.css"
 
-class DecrementIncrement extends React.Component {
+class Counter extends React.Component {
   constructor(props) {
     super(props);
     this.state = { count: 0 };
@@ -29,4 +29,4 @@ class DecrementIncrement extends React.Component {
   }
 }
 
-export default DecrementIncrement;
+export default Counter;
