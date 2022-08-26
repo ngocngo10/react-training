@@ -15,6 +15,7 @@ import TestForms from "./Components/learn-forms";
 import Calculator from "./Components/learn-lifting-state-up";
 import SignUpDialog from "./Components/learn-composition-vs-inheritance";
 import ContextComponent from "./Components/Advanced/Context";
+import TestErrorBoundaries from "./Components/ErrorBoundaries/TestErrorBoundaries";
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
       <TestForms></TestForms>
       <Calculator></Calculator>
       <SignUpDialog></SignUpDialog>
-      <ContextComponent/>
+      <ContextComponent />
+      <TestErrorBoundaries />
     </>
   );
 }
