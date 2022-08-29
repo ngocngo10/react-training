@@ -16,6 +16,8 @@ import Calculator from "./Components/learn-lifting-state-up";
 import SignUpDialog from "./Components/learn-composition-vs-inheritance";
 import ContextComponent from "./Components/Advanced/Context";
 import TestErrorBoundaries from "./Components/ErrorBoundaries/TestErrorBoundaries";
+import TestHOC from "./Components/HigherOrderComponents/TestHOC";
+import TesOptimizingPerformance from "./Components/OptimizingPerformance/TestOptimizingPerformance";
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
       <SignUpDialog></SignUpDialog>
       <ContextComponent />
       <TestErrorBoundaries />
+      <TestHOC />
+      <TesOptimizingPerformance />
     </>
   );
 }
