@@ -19,6 +19,7 @@ import TestErrorBoundaries from "./Components/ErrorBoundaries/TestErrorBoundarie
 import TestHOC from "./Components/HigherOrderComponents/TestHOC";
 import TesOptimizingPerformance from "./Components/OptimizingPerformance/TestOptimizingPerformance";
 import TestUncontrolledComponent from "./Components/UnControlledComponent/TestUncontrolledComponent";
+import TestUseStateHook from "./Components/UseStateHook/TestUseStateHook";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
       <TestHOC />
       <TesOptimizingPerformance />
       <TestUncontrolledComponent />
+      <TestUseStateHook />
     </>
   );
 }
