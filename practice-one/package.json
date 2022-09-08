@@ -6,7 +6,18 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "husky install",
+    "prepare": "cd .. && husky install practice-one/.husky",
+    "pretty": " prettier --write ./**/*.{js,jsx,html,css}"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "./**/*.{js,jsx,html,css}": "prettier --write"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -16,6 +27,9 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
     "vite": "^3.1.0"
   }
 }
