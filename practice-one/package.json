@@ -8,7 +8,6 @@
     "build": "vite build",
     "preview": "vite preview",
     "postinstall": "husky install",
-    "prepare": "cd .. && husky install practice-one/.husky",
     "pretty": " prettier --write ./**/*.{js,jsx,html,css}"
   },
   "husky": {
