@@ -1,0 +1,14 @@
+.text {
+  font-family: '';
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text--product-price {
+  font-size: 18px;
+  line-height: 18px;
+  color: #d0021c;
+  -webkit-line-clamp: 2;
+}
