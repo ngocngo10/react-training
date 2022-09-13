@@ -1,0 +1,8 @@
+.product-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 0 5px;
+  padding: 10px 10px 20px;
+}

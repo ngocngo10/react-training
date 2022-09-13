@@ -6,6 +6,14 @@
   "singleQuote": true,
   "quoteProps": "as-needed",
   "jsxSingleQuote": false,
+  "overrides": [
+    {
+      "files": ["./**/*.css", "./**/*.html", "*.css", "*.html", "*.md"],
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ],
   "trailingComma": "all",
   "bracketSpacing": true,
   "jsxBracketSameLine": true,
