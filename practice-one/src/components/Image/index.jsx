@@ -1,10 +1,11 @@
 import React from 'react';
+import './index.css';
 
 const Image = props => {
-  const { imageContainer, src, alt, imageClass } = props;
+  const { imageWrapperStyle, src, alt, imageStyle } = props;
   return (
-    <div className={imageContainer}>
-      <img src={src} alt={alt} className={imageClass} />
+    <div className={imageWrapperStyle}>
+      <img src={src} alt={alt} className={imageWrapperStyle} />
     </div>
   );
 };
