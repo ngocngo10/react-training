@@ -1,8 +1,13 @@
 import React from "react";
 import { useRef } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import fontawesome from "@fortawesome/fontawesome";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import "./index.css";
 import Input from "../Input/index";
 import Button from "../Button/index";
+
+fontawesome.library.add(faMagnifyingGlass);
 
 const Search = () => {
   const searchInput = useRef();
@@ -18,7 +23,7 @@ const Search = () => {
         nameRef={searchInput}
       />
       <Button type="submit" className="btn-search-submit">
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
       </Button>
     </form>
   );

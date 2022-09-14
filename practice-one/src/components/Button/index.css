@@ -3,34 +3,34 @@
   text-decoration: none;
   cursor: pointer;
   text-align: center;
-  font-family: 'Roboto Medium';
+  font-family: "Roboto Medium";
 }
 
-.btn--primary {
+.btn-primary {
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
 }
 
-.btn--secondary {
+.btn-secondary {
   color: #fff;
   background-color: #28a745;
   border-color: #28a745;
 }
 
-.btn--third {
+.btn-third {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
 }
 
-.btn--fourth {
+.btn-fourth {
   color: #212529;
   background-color: #ffc107;
   border-color: #ffc107;
 }
 
-.btn--small {
+.btn-small {
   padding: 10px 24px;
   font-size: var(--fs-small);
 }
