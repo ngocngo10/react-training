@@ -1,8 +1,8 @@
-import React from 'react';
-import './index.css';
+import React from "react";
+import "./index.css";
 
 const Text = props => {
-  const { text, textType } = props;
+  const { textType, text } = props;
   return <p className={`text text--${textType}`}>{text}</p>;
 };
 

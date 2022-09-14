@@ -8,7 +8,7 @@
   "jsxSingleQuote": false,
   "overrides": [
     {
-      "files": ["./**/*.css", "./**/*.html", "*.css", "*.html", "*.md"],
+      "files": ["./**/*.css", "./**/*.html","./**/*.jsx", "*.css", "*.html", "*.md"],
       "options": {
         "singleQuote": false
       }

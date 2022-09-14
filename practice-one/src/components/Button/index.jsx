@@ -1,8 +1,8 @@
-import React from 'react';
-import './index.css';
+import React from "react";
+import "./index.css";
 
 const Button = props => {
-  const { className, variant, size } = props;
+  const { className = "", variant = "primary", size } = props;
   return (
     <button className={`${className} btn btn-${variant} btn-${size}`}>
       {props.children}

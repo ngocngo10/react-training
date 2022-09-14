@@ -6,3 +6,8 @@
   margin: 0 5px;
   padding: 10px 10px 20px;
 }
+
+.product-infor {
+  display: flex;
+  justify-content: space-between;
+}
