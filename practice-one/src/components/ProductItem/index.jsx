@@ -10,7 +10,7 @@ const ProductItem = props => {
   const { product } = props;
   return (
     <>
-      <li className="product-item" key={product.id}>
+      <li className="product-item">
         <Link to="javascript:void(0)">
           <ProductImage
             imageWrapperStyle="product-img-wrapper"
