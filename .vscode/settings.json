@@ -1,7 +1,6 @@
 {
-  "files.autoSave": "afterDelay",
-  "editor.formatOnSave": true,
-  "eslint.rules": {
-    "quotes": [2, "single", { "avoidEscape": true }]
-  }
+  "cSpell.words": [
+    "fontawesome",
+    "fortawesome"
+  ]
 }

@@ -2,9 +2,14 @@
   background-color: #fff;
   border: none;
   border-radius: 4px;
+  font-family: "Roboto Light";
   font-size: 12px;
   line-height: 14px;
   height: 40px;
   padding: 8px 8px 8px 13px;
   width: calc(100% - 35px);
+}
+
+.search-input:focus {
+  outline: none;
 }

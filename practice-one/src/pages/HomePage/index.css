@@ -1,0 +1,16 @@
+.home-page {
+  min-height: 100vh;
+}
+
+.products-action-section {
+  background-color: #ffcc04;
+  height: 120px;
+}
+
+.products-actions {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
