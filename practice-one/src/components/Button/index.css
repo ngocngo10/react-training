@@ -12,7 +12,7 @@
   border-color: #007bff;
 }
 
-.btn-secondary {
+.btn-variant {
   color: #fff;
   background-color: #28a745;
   border-color: #28a745;
@@ -30,7 +30,22 @@
   border-color: #ffc107;
 }
 
-.btn-small {
-  padding: 10px 24px;
-  font-size: var(--fs-small);
+.btn-regular {
+  padding: 10px 20px;
+  font-size: var(--fs-regular);
+}
+
+.btn-search-submit {
+  background-color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.btn-add {
+  font-family: "Roboto Regular";
+}
+
+.btn-add span {
+  margin-left: 5px;
 }

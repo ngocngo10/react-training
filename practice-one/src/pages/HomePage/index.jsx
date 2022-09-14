@@ -15,8 +15,14 @@ const HomePage = () => {
         <Container>
           <div className="products-actions">
             <Search />
-            <Button type="button" className="btn-add">
+            <Button
+              type="button"
+              className="btn-add"
+              variant="variant"
+              size="regular"
+            >
               <FontAwesomeIcon icon="fa-solid fa-plus" />
+              <span>Add product</span>
             </Button>
           </div>
         </Container>

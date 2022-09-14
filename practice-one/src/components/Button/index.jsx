@@ -2,12 +2,7 @@ import React from "react";
 import "./index.css";
 
 const Button = props => {
-  const {
-    type = { type },
-    className = "",
-    variant = "primary",
-    size = "small",
-  } = props;
+  const { type, className, variant, size } = props;
   return (
     <button
       type={type}
