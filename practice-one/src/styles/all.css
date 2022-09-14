@@ -1,2 +1,4 @@
-@import url(abstracts/all.css);
-@import url(base/all.css);
+@import url("./reset.css");
+@import url("./fonts.css");
+@import url("./variables.css");
+@import url("./global.css");
