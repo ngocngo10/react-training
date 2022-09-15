@@ -1,13 +1,23 @@
 .product-item {
+  height: 350px;
   display: flex;
   flex-direction: column;
   background-color: #fff;
   border-radius: 4px;
-  margin: 0 5px;
   padding: 10px 10px 20px;
+  margin: 10px 10px;
 }
 
 .product-infor {
+  padding: 10px 15px;
+  height: 70px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  text-decoration: none;
+}
+
+.product-actions {
+  display: flex;
+  justify-content: space-around;
 }

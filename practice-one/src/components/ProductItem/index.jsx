@@ -1,17 +1,22 @@
 import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
-import ProductImage from "../Image/index";
-import ProductTitle from "../Heading/index";
-import ProductPrice from "../Text/index";
-import Button from "../Button/index";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import fontawesome from "@fortawesome/fontawesome";
+import { faPencil, faTrash } from "@fortawesome/free-solid-svg-icons";
+import ProductImage from "../Image";
+import ProductTitle from "../Heading";
+import ProductPrice from "../Text";
+import Button from "../Button";
+
+fontawesome.library.add(faPencil, faTrash);
 
 const ProductItem = props => {
   const { product } = props;
   return (
     <>
       <li className="product-item">
-        <Link to="javascript:void(0)">
+        <a href="#">
           <ProductImage
             imageWrapperStyle="product-img-wrapper"
             src={product.image}
@@ -24,17 +29,20 @@ const ProductItem = props => {
               titleType="product"
               title={product.title}
             />
-            <ProductPrice textType="product-price" text={product.price} />
+            <ProductPrice textType="product-price">
+              <strong>{`${product.price}`}</strong>
+              <sup>₫</sup>
+            </ProductPrice>
           </div>
           <div className="product-actions">
-            <Button className="btn--edit">
-              <i className="fa-solid fa-pen-to-square"></i>
+            <Button className="btn-edit">
+              <FontAwesomeIcon icon="fa-solid fa-pencil" />
             </Button>
-            <Button className="btn--delete">
-              <i class="fa-solid fa-trash-can"></i>
+            <Button className="btn-delete">
+              <FontAwesomeIcon icon="fa-solid fa-trash" />
             </Button>
           </div>
-        </Link>
+        </a>
       </li>
     </>
   );

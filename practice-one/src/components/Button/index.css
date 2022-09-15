@@ -20,14 +20,19 @@
 
 .btn-third {
   color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
+  background-color: red;
+  border-color: red;
 }
 
 .btn-fourth {
-  color: #212529;
+  color: #fff;
   background-color: #ffc107;
   border-color: #ffc107;
+}
+
+.btn-small {
+  padding: 10px 10px;
+  font-size: var(--fs-medium);
 }
 
 .btn-regular {
@@ -48,4 +53,16 @@
 
 .btn-add span {
   margin-left: 5px;
+}
+
+.btn-edit {
+  background-color: #fff;
+  color: #ffc107;
+  font-size: 30px;
+}
+
+.btn-delete {
+  background-color: #fff;
+  color: red;
+  font-size: 30px;
 }
