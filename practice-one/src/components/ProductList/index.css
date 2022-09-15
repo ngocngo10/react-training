@@ -10,3 +10,14 @@
   flex-wrap: wrap;
   background-color: #ff5f01;
 }
+
+.empty-product-list {
+  width: 1250px;
+  margin: 50px auto;
+  background-color: #007bff;
+  color: #fff;
+  font-family: "Roboto Regular";
+  font-size: 24px;
+  line-height: 48px;
+  text-align: center;
+}
