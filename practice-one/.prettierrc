@@ -5,6 +5,7 @@
   "semi": true,
   "singleQuote": true,
   "quoteProps": "as-needed",
+  "jsSingleQuote": true,
   "jsxSingleQuote": false,
   "overrides": [
     {
