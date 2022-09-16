@@ -1,0 +1,17 @@
+.text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text--product-price {
+  font-family: "Roboto Bold";
+  color: var(--color-third);
+}
+
+.text--product-price strong {
+  font-size: 20px;
+  line-height: 18px;
+}

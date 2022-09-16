@@ -1,0 +1,10 @@
+.title {
+  font-style: normal;
+  color: var(--color-secondary);
+}
+
+.title--product {
+  font-family: "Roboto Regular";
+  font-size: 17px;
+  line-height: 24px;
+}

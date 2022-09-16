@@ -1,0 +1,68 @@
+.btn {
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Roboto Medium";
+}
+
+.btn-primary {
+  color: var(--color-primary);
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-variant {
+  color: var(--color-primary);
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-third {
+  color: var(--color-primary);
+  background-color: red;
+  border-color: red;
+}
+
+.btn-fourth {
+  color: var(--color-primary);
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-small {
+  padding: 10px 10px;
+  font-size: var(--fs-medium);
+}
+
+.btn-regular {
+  padding: 10px 20px;
+  font-size: var(--fs-regular);
+}
+
+.btn-search-submit {
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.btn-add {
+  font-family: "Roboto Regular";
+}
+
+.btn-add span {
+  margin-left: 5px;
+}
+
+.btn-edit {
+  background-color: var(--color-primary);
+  color: #ffc107;
+  font-size: 30px;
+}
+
+.btn-delete {
+  background-color: var(--color-primary);
+  color: var(--color-third);
+  font-size: 30px;
+}
