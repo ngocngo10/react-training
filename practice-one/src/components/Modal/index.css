@@ -13,7 +13,7 @@
 
 .modal-content {
   width: 500px;
-  background-color: #fff;
+  background-color: var(--color-primary);
 }
 
 .modal-header {

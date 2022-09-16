@@ -1,6 +1,6 @@
 .title {
   font-style: normal;
-  color: #333;
+  color: var(--color-secondary);
 }
 
 .title--product {

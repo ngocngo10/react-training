@@ -8,7 +8,7 @@
 
 .text--product-price {
   font-family: "Roboto Bold";
-  color: #d0021c;
+  color: var(--color-third);
 }
 
 .text--product-price strong {

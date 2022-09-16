@@ -13,48 +13,48 @@ fontawesome.library.add(faPlus);
 
 const HomePage = () => {
   const products = [
-    // {
-    //   id: 1,
-    //   image:
-    //     "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-tim-thumb-600x600.jpg",
-    //   title: "Sam sung A31",
-    //   price: 230000,
-    // },
-    // {
-    //   id: 1,
-    //   image:
-    //     "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-tim-thumb-600x600.jpg",
-    //   title: "Sam sung A31",
-    //   price: 230000,
-    // },
-    // {
-    //   id: 1,
-    //   image:
-    //     "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-tim-thumb-600x600.jpg",
-    //   title: "Sam sung A31",
-    //   price: 230000,
-    // },
-    // {
-    //   id: 1,
-    //   image:
-    //     "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-tim-thumb-600x600.jpg",
-    //   title: "Sam sung A31",
-    //   price: 230000,
-    // },
-    // {
-    //   id: 1,
-    //   image:
-    //     "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-tim-thumb-600x600.jpg",
-    //   title: "Sam sung A31",
-    //   price: 230000,
-    // },
-    // {
-    //   id: 1,
-    //   image:
-    //     "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-tim-thumb-600x600.jpg",
-    //   title: "Sam sung A31",
-    //   price: 230000,
-    // },
+    {
+      id: 1,
+      image:
+        "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-tim-thumb-600x600.jpg",
+      title: "Sam sung A31",
+      price: 230000,
+    },
+    {
+      id: 1,
+      image:
+        "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-tim-thumb-600x600.jpg",
+      title: "Sam sung A31",
+      price: 230000,
+    },
+    {
+      id: 1,
+      image:
+        "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-tim-thumb-600x600.jpg",
+      title: "Sam sung A31",
+      price: 230000,
+    },
+    {
+      id: 1,
+      image:
+        "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-tim-thumb-600x600.jpg",
+      title: "Sam sung A31",
+      price: 230000,
+    },
+    {
+      id: 1,
+      image:
+        "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-tim-thumb-600x600.jpg",
+      title: "Sam sung A31",
+      price: 230000,
+    },
+    {
+      id: 1,
+      image:
+        "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-tim-thumb-600x600.jpg",
+      title: "Sam sung A31",
+      price: 230000,
+    },
   ];
 
   return (

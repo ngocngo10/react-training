@@ -1,7 +1,7 @@
 :root {
-  --color-primary: ;
-  --color-secondary: ;
-  --color-third: ;
+  --color-primary: #fff;
+  --color-secondary: #333;
+  --color-third: #d0021c;
 
   --fs-small: 12px;
   --fs-regular: 14px;

@@ -7,25 +7,25 @@
 }
 
 .btn-primary {
-  color: #fff;
+  color: var(--color-primary);
   background-color: #007bff;
   border-color: #007bff;
 }
 
 .btn-variant {
-  color: #fff;
+  color: var(--color-primary);
   background-color: #28a745;
   border-color: #28a745;
 }
 
 .btn-third {
-  color: #fff;
+  color: var(--color-primary);
   background-color: red;
   border-color: red;
 }
 
 .btn-fourth {
-  color: #fff;
+  color: var(--color-primary);
   background-color: #ffc107;
   border-color: #ffc107;
 }
@@ -41,7 +41,7 @@
 }
 
 .btn-search-submit {
-  background-color: #fff;
+  background-color: var(--color-primary);
   position: absolute;
   top: 10px;
   right: 10px;
@@ -56,13 +56,13 @@
 }
 
 .btn-edit {
-  background-color: #fff;
+  background-color: var(--color-primary);
   color: #ffc107;
   font-size: 30px;
 }
 
 .btn-delete {
-  background-color: #fff;
-  color: red;
+  background-color: var(--color-primary);
+  color: var(--color-third);
   font-size: 30px;
 }
