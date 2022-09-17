@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 /**
  *  Function uses endpoint, body (optional) and method to return the requested  result by the user
  * @param {string} endpoint
@@ -19,7 +17,8 @@ const request = async (endpoint, method = 'GET', body) => {
     options.body = JSON.stringify(body);
   }
 
-  const res = await fetch(process.env.API_HOST + endpoint, options);
+  const baseUrl = import.meta.env.VITE_API_BASE_URL;
+  const res = await fetch(baseUrl + endpoint, options);
   if (!res.ok) {
     throw new Error(`An error has occurred: ${res.status}`);
   }

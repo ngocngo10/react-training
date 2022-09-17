@@ -5,7 +5,8 @@ import { get, remove, create, update } from '../helpers/service.helper';
  * @returns {array} smartphone list
  */
 const getSmartphoneList = async () => {
-  const smartphoneList = await get(`/smartphones`);
+  const baseUrl = import.meta.env.VITE_ENDPOINT_PRODUCTS;
+  const smartphoneList = await get(`smartphones`);
   localStorage.setItem('smartphone-list', JSON.stringify(smartphoneList));
   return smartphoneList;
 };
