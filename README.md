@@ -8,7 +8,7 @@
         - At the end of this step, trainees should be able to join projects for hot training and doing React Components.
     - Advanced Guides: 2 weeks.
 
-- target: A revision of React training plan which focuses on the latest version of React (v18.0.2). It will help trainees learn React fundamentals step by step following the instructions and hands-on practices.
+- Target: A revision of React training plan which focuses on the latest version of React (v18.0.2). It will help trainees learn React fundamentals step by step following the instructions and hands-on practices.
 
 ## TOOLS
 - [Chrome browser](https://www.google.com/chrome/) - required purest version, no extension installed. Better create a new profile and start training on this profile.
